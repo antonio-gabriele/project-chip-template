@@ -1,54 +1,5 @@
-Prove con CMakeLists.txt
+Just to be clear: Not Working !!!
 
+This is a test app to get matter inside cmake project, not your project inside matter !!!
 
-target_link_libraries(BridgeApp 
-  ${GLIB_LIBRARIES}
-  )
-  
-target_link_libraries(BridgeApp 
-  ${CHIP_ROOT}/out/host/lib/libCHIP.a
-  ${CHIP_ROOT}/out/host/obj/examples/common/websocket-server/lib/libWebSocketServer.a
-  ${CHIP_ROOT}/out/host/obj/examples/shell/shell_common/lib/shell_common.a
-  ${CHIP_ROOT}/out/host/obj/third_party/editline/lib/editline.a
-  ${CHIP_ROOT}/out/host/obj/src/tracing/lib/tracing.a
-  ${CHIP_ROOT}/out/host/obj/src/tracing/perfetto/lib/perfetto.a
-  ${CHIP_ROOT}/out/host/obj/src/tracing/json/lib/json.a
-  ${CHIP_ROOT}/out/host/obj/src/setup_payload/lib/libSetupPayload.a
-  ${CHIP_ROOT}/out/host/obj/src/app/common/lib/libClusterObjects.a
-  ${CHIP_ROOT}/out/host/obj/src/app/lib/libCHIPDataModel.a
-  ${CHIP_ROOT}/out/host/obj/src/app/tests/suites/commands/interaction_model/lib/libInteractionModelCommands.a
-  ${CHIP_ROOT}/out/host/obj/src/app/server/lib/libCHIPAppServer.a
-  ${CHIP_ROOT}/out/host/obj/src/platform/Linux/lib/Linux.a
-  ${CHIP_ROOT}/out/host/obj/src/platform/Linux/dbus/openthread/lib/openthread.a
-  ${CHIP_ROOT}/out/host/obj/src/platform/Linux/dbus/wpa/lib/wpa.a
-  ${CHIP_ROOT}/out/host/obj/src/platform/Linux/dbus/bluez/lib/bluez.a
-  ${CHIP_ROOT}/out/host/obj/src/platform/lib/libDeviceLayer.a
-  ${CHIP_ROOT}/out/host/obj/src/transport/lib/libTransportLayer.a
-  ${CHIP_ROOT}/out/host/obj/src/transport/raw/lib/libRawTransport.a
-  ${CHIP_ROOT}/out/host/obj/src/lib/asn1/lib/libASN1.a
-  ${CHIP_ROOT}/out/host/obj/src/lib/address_resolve/lib/address_resolve.a
-  ${CHIP_ROOT}/out/host/obj/src/lib/core/lib/libChipCore.a
-  ${CHIP_ROOT}/out/host/obj/src/lib/dnssd/lib/dnssd.a
-  ${CHIP_ROOT}/out/host/obj/src/lib/dnssd/minimal_mdns/responders/lib/responders.a
-  ${CHIP_ROOT}/out/host/obj/src/lib/dnssd/minimal_mdns/lib/default_policy.a
-  ${CHIP_ROOT}/out/host/obj/src/lib/dnssd/minimal_mdns/lib/minimal_mdns.a
-  ${CHIP_ROOT}/out/host/obj/src/lib/dnssd/minimal_mdns/core/lib/core.a
-  ${CHIP_ROOT}/out/host/obj/src/lib/dnssd/minimal_mdns/records/lib/records.a
-  ${CHIP_ROOT}/out/host/obj/src/lib/support/lib/libSupportLayer.a
-  ${CHIP_ROOT}/out/host/obj/src/lib/support/jsontlv/lib/jsontlv.a
-  ${CHIP_ROOT}/out/host/obj/src/controller/lib/libChipController.a
-  ${CHIP_ROOT}/out/host/obj/src/protocols/interaction_model/lib/libInteractionModel.a
-  ${CHIP_ROOT}/out/host/obj/src/protocols/secure_channel/lib/libSecureChannelTypes.a
-  ${CHIP_ROOT}/out/host/obj/src/protocols/secure_channel/lib/libSecureChannel.a
-  ${CHIP_ROOT}/out/host/obj/src/protocols/lib/libChipProtocols.a
-  ${CHIP_ROOT}/out/host/obj/src/protocols/bdx/lib/libBdx.a
-  ${CHIP_ROOT}/out/host/obj/src/messaging/lib/libMessagingLayer.a
-  ${CHIP_ROOT}/out/host/obj/src/access/lib/libaccess.a
-  ${CHIP_ROOT}/out/host/obj/src/system/lib/libSystemLayer.a
-  ${CHIP_ROOT}/out/host/obj/src/credentials/lib/libCredentials.a
-  ${CHIP_ROOT}/out/host/obj/src/credentials/lib/libFileAttestationTrustStore.a
-  ${CHIP_ROOT}/out/host/obj/src/credentials/lib/libDefaultAttestationVerifier.a
-  ${CHIP_ROOT}/out/host/obj/src/inet/lib/libInetLayer.a
-  ${CHIP_ROOT}/out/host/obj/src/ble/lib/libBleLayer.a
-  ${CHIP_ROOT}/out/host/obj/src/crypto/lib/libChipCrypto.a  
-  )
+Help needed.

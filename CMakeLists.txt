@@ -12,7 +12,8 @@ pkg_check_modules(deps REQUIRED IMPORTED_TARGET glib-2.0 gobject-2.0 gio-2.0 ope
 link_directories(${CHIP_ROOT_OUT}/lib)
 
 file(GLOB SRCS
-     "${CHIP_ROOT}/src/app/*.cpp"
+  "${CHIP_ROOT}/src/app/util/*.cpp"
+  "${CHIP_ROOT}/src/app/clusters/access-control-server/*.cpp"
 )
 
 
